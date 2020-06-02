@@ -3,9 +3,10 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <header>
+ <header>
 <div>
 <nav>
   <a>
@@ -21,38 +22,37 @@
   <a href="blank.html">корзина</a>
 </div>
 </nav>
-<div>
- <div>
-    <div>
-      <p>Долго, дорого, скурпулезно</p>
-      <p>Математически выверенный дизайн<br>
-         для вашего сайта, или мобильного приложения.
-      </p>
-      <a href="blank.html">Узнать больше</a>
-    </div>
- </div>
-  <div>
-     <div>
-       <p>Любим матемактику, как никто другой</p>
-       <p>Никакого креатива, только математические формулыч<br>
-          для расчета идеальных пропорций.
-       </p>
-       <a href="blank.html">Узнать больше</a>
-     </div>
-  </div>
-  <div>
-    <div>
-      <p>Только ночь, только хардкор</p>
-      <p>Работать днем, как все? Мы против этого.<br>
-         Ближе к полуночи работа только начинается.
-      </p>
-      <a href="blank.html">Узнать больше</a>
-    </div>
- </div>
- </div>
 </div>
 </header>
-    <main>
+ <main>
+  <div class="site-wrapper">
+    <div class="container">
+      <header class="main-header"></header>
+  <section class="slider">
+        <ul class="slider-list">
+          <li class="slider-item slide">
+            <h3 class="slide-title">Долго, дорого, скурпулезно</h3>
+            <p class="slide-text">Математически выверенный дизайн для вашего сайта или мобильного приложения</p>
+            <a class="button slide-button" href="blank.html">Узнать больше</a>
+          </li>
+          <li class="slider-item slide">
+            <h3 class="slide-title">Любим математику как никто другой</h3>
+            <p class="slide-text"> Никакого креатива, только математические формулы для расчета идеальных пропорций</p>
+            <a class="button slide-button" href="blank.html">Узнать больше</a>
+          </li>
+          <li class="slider-item slide">
+            <h3 class="slide-title">Только ночь, только хардкор</h3>
+            <p class="slide-text">Работать днем, как все? Мы против этого. Ближе к полуночи работа только начинается.</p>
+          </li>
+        </ul>
+    <div class="slider-controls">
+      <button type="button"></button>
+      <button type="button"></button>
+      <button type="button"></button>
+    </div>
+  </section>
+    </div>
+  </div>
 <section>
 <div>
   <ul>
@@ -156,19 +156,21 @@
     <img src="img/map 1.png" alt="map" width="1440" height="416">
     <div>
       <div>
-        <h3>Nerds design studio</h3>>
+        <h3>Nerds design studio</h3>
         <p>
           191186, Санкт-Петербург,<br>
           ул. Б. Конюшенная, д. 19/8
         </p>
-          <a href="tel:+78122757575">+7(812) 275-75-75</a>
+        <a href="tel:+78122757575">+7(812) 275-75-75</a>
         <a href="blank.html">Напишите нам</a>
       </div>
     </div>
   </section>
 <div>
   <ul>
-  <li><a href="blank.html">vkontakte</a></li>
+  <li>
+    <a href="vk.com" aria-label="Вконтакте">vkontakte</a>
+  </li>
   <li><a href="blank.html">facebook</a></li>
   <li><a href="blank.html">instagram</a></li>
   </ul>
