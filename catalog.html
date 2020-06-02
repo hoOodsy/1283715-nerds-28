@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Нёрдс</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
 <header>
@@ -28,26 +29,26 @@
 </header>
 <main>
  <div>
- <form>
-   <fieldset>
-     <legend>Стоимость:</legend>
-      <div>
-       <div>
-        <!-- <div>Для ползунка</div> -->
-        <button type="button" aria-label="minimal"></button>
-        <button type="button" aria-label="maximal"></button>
-       </div>
-       <p>
-         <label>
-           "От"
-           <input type="text" name="min-price" value="0">
-         </label>
-         <label>
-           "До"
-           <input type="text" name="max-price" value="15000">
-         </label>
-       </p>
-    </fieldset>
+ <form method="get" action="https://echo.htmlacademy.ru">
+  <fieldset class="filter-item">
+    <legend>Стоимость:</legend>
+    <div class="range-filter">
+    </div class="range-controls">
+    <div class="scale">
+      <div class="bar"></div>
+      <div class="toggle toggle-min" tabindex="0"></div>
+      <div class="toggle toggle-max" tabindex="0"></div>
+    </div>
+    </div>
+    <div class="price-controls">
+      <label class="min-price">
+        от <input type="number" name="min-price" value="0">
+      </label>
+      <label class="max-price">
+        до <input type="number" name="max-price" value="15000">
+      </label>
+    </div>
+  </fieldset>
   <fieldset>
     <legend>Сетка:</legend>
     <ul>
