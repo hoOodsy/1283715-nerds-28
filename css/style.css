@@ -1,0 +1,144 @@
+:root {
+--basic-white: #FFFFFF;
+--basic-grey: #EEEEEE;
+--basic-red: #FB565A;
+--basic-black: #000000;
+
+}
+body {
+  min-width: 1460px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: normal;
+  background-color: var(--basic-white);
+}
+a {
+  text-decoration: none;
+  color: var(--basic-black);
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+/* Main_navigation */
+.main_navigation {
+  font-size: 16px;
+  line-height: 30px;
+  color: var(--basic-black);
+  text-transform: uppercase;
+}
+.main_navigation_wrapper {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: var(--basic-grey);
+}
+.site_navigation {
+  list-style: none;
+}
+.main_header_logo {
+  width: 160px;
+  height: 65px;
+}
+/*User cart*/
+.user_cart {
+  background-color: var(--basic-grey);
+  color: black;
+  text-transform: uppercase;
+}
+.cart {
+  content: "";
+  position: relative;
+  padding-left: 25px;
+  width: 15px;
+  height: 15px;
+  background-image: url("../img/cart-icon.svg");
+  background-repeat: no-repeat;
+}
+/*offers*/
+.offers {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.offers_list {
+  background-color: inherit;
+  list-style: none;
+}
+/*Social_links*/
+.social_content_wrapper {
+  width: 1440px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.social_list {
+  list-style: none;
+}
+.social_item {
+  width: 81px;
+  height: 81px;
+  border-radius: 50%;
+  color: currentColor;
+  background: linear-gradient(0deg, #E1E1E1, #E1E1E1), #FFFFFF;
+}
+.social_items_links {
+  text-align: center;
+  align-items: center;
+}
+/*Buttons*/
+.button {
+  vertical-align: top;
+  padding: 16px 40px;
+  border: 0;
+  border-radius: 3px;
+  font: inherit;
+  font-weight: 500;
+  line-height: 18px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+  text-decoration: none;
+  cursor: pointer;
+}
+.button_red {
+  background-color: #FB565A;
+}
+.button_green {
+  background-color: #00CA74;
+}
+.button_yellow {
+  background-color: #EFC849;
+}
+/*offeting*/
+.social_offering {
+  width: 660px;
+}
+.social_offering_title {
+font-weight: bold;
+font-size: 36px;
+line-height: 36px;
+color: #000000;
+}
+.social_offering_text {
+font-size: 16px;
+line-height: 22px;
+color: #444444;
+}
+.header_title {
+  margin: 0;
+  font-size: 55px;
+  font-weight: 500px;
+  line-height: 55px;
+  text-align: center;
+}
+.header_title_wrapper {
+background-color: var(--basic-grey);
+}
